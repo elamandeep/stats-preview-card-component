@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --card-bg: hsl(244, 38%, 16%);
+    --bg: hsl(233, 47%, 7%);
+    --soft-violet:hsl(277, 64%, 61%);
+    --head-color: hsl(0, 0%, 100%);
+    --para-color:hsla(0, 0%, 100%, 0.75);
+    --stats-color:hsla(0, 0%, 100%, 0.6);
+}
+
+body{
+    background-color:var(--stats-color) ;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+main{
+    background-color: var(--bg);
+    width: 60vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.img-class{
+    order: 1;
+    width: 65vw;
+    height: 20vw;
+    background-image: url("images/image-header-desktop.jpg");
+    background-color: var(--soft-violet);
+    background-blend-mode: multiply;
+}
+
+  
+  
+.content{
+    background-color: var(--card-bg);
+    height:20vw;
+    padding: 40px 60px 40px 40px;
+}
+
+header{
+    color: var(--head-color);
+    font-family:Inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#hightlighted-text{
+    color: var(--soft-violet);
+}
+section{
+    font-family:Lexend Deca;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: var(--para-color);
+    padding: 20px 0px;
+}
+footer{
+    font-family:Lexend Deca;
+    color: var(--stats-color);
+    font-weight: 400;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 30px 0px;
+}
+.highlighted-num{
+    font-family: Inter;
+    font-weight: 700;
+    color: var(--head-color);
+    font-size: 0.8rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}

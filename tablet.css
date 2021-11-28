@@ -1,0 +1,27 @@
+body{
+   font-size: 10px; 
+}
+
+main{
+    width: 60vw;
+    height: 40vw;
+    padding:20px 40px;
+}
+.img-class{
+    width: 60vw;
+    height: 30vw;
+}
+
+.content{
+    overflow:hidden;
+    height: 30vw;
+    padding: 20px 30px;
+}
+header{
+    font-size: 1.2rem;
+
+}
+section{
+    font-size: 0.7rem;
+    padding: 10px 0px;
+}
